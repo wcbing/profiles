@@ -1,0 +1,9 @@
+# Shortcuts for pacman/yay/...
+alias search="$pkg -Ss"
+alias show="$pkg -Si"
+alias info="$pkg -Qi"
+alias update="$pkg -Sy"
+alias upgrade="$pkg -Syu"
+alias install="$pkg -S"
+alias remove="$pkg -Rncs"
+alias autoremove="$pkg -Qtdq | $pkg -Rns -"

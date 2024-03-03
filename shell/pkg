@@ -1,0 +1,12 @@
+# Shortcuts for APT/DNF/...
+## The "show" is APT only, DNF has "info" instead.
+## APT has alias "info" for "show", although it's not mentioned.
+alias search="$pkg search"
+alias list="$pkg list"
+alias show="$pkg show"
+alias info="$pkg info"
+alias update="$pkg update"
+alias upgrade="$pkg update && $pkg upgrade"
+alias install="$pkg install"
+alias remove="$pkg remove"
+alias autoremove="$pkg autoremove"
